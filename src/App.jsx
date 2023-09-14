@@ -20,7 +20,7 @@ libraries
   })
     return (
         <div>
-        {isLoaded ? <Map center={center} /> : <h2>...Loading</h2>}
+        {isLoaded ? <Map center={center} /> : <h2>...Loading map</h2>}
         <Autocomplete/>
         </div>
      )
