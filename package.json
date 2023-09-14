@@ -2,7 +2,7 @@
   "name": "test-form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Yaroslava-Vorobets.github.io/test-form",
+  "homepage": "http://Yaroslava-Vorobets.github.io/test-form/",
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "@testing-library/jest-dom": "^5.17.0",
