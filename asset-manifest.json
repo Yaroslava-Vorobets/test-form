@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/test-form/static/js/main.bdfb2021.js",
+    "index.html": "/test-form/index.html",
+    "main.bdfb2021.js.map": "/test-form/static/js/main.bdfb2021.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bdfb2021.js"
+  ]
+}
