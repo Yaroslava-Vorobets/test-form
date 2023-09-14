@@ -1,11 +1,12 @@
 import Map from './components/Map'
-import {useJsApiLoader } from '@react-google-maps/api';
+import { useJsApiLoader } from '@react-google-maps/api';
+import Autocomplete from './components/Autocomplete'
 const API_KEY = process.env.REACT_APP_API_KEY
 console.log(API_KEY)
 
 const center = {
-  lat: -3.745,
-  lng: -38.523
+  lat: 42.638,
+  lng: 12.674
 };
 
 
@@ -19,7 +20,8 @@ libraries
   })
     return (
         <div>
-           {isLoaded ?  <Map center={center} />: <h2>...Loading</h2> }
+        {isLoaded ? <Map center={center} /> : <h2>...Loading</h2>}
+        <Autocomplete/>
         </div>
      )
     

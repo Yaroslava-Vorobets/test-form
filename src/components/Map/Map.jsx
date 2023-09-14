@@ -5,8 +5,8 @@ import {StyleSnazzy} from './styleSnazzy'
 
 
 const containerStyle = {
-  width: '100vw',
-  height: '100vh'
+  width: '500px',
+  height: '500px'
 };
 const defaultOptions = {    
     panControl: true,
