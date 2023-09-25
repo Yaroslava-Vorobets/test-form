@@ -19,9 +19,10 @@ googleMapsApiKey: API_KEY,
 libraries
   })
     return (
-        <div>
+      <div>
+         <Autocomplete isLoaded={isLoaded} />
         {isLoaded ? <Map center={center} /> : <h2>...Loading map</h2>}
-        <Autocomplete/>
+       
         </div>
      )
     

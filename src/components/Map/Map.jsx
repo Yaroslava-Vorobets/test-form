@@ -14,7 +14,7 @@ const defaultOptions = {
     scaleControl: false,
     onClick: true,
     onMouseMove: true,
-    streetView: true,
+    
     klickableIcons: false,
     keyboardShortcuts: false,
     scrollwheel:true,
