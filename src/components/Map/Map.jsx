@@ -12,6 +12,7 @@ const defaultOptions = {
     panControl: true,
     zoomControl: true,   
     scaleControl: false,
+    streetView: true,    
     onClick: true,
     onMouseMove: true,
     
